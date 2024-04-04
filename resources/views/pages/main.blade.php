@@ -573,7 +573,6 @@
                                 Voluptates harum aliquam totam, doloribus eum impedit atque! Temporibus...
                             </p>
                         </div>
-
                     </div>
                     <div
                         class="group  rounded-3xl border shadow-none border-orange-700 bg-opacity-50 shadow-2xl shadow-gray-600/10">

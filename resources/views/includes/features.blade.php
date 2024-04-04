@@ -1,16 +1,13 @@
 <div id="features">
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-        <div
-            class="mt-16 grid divide-x divide-y divide-gray-100 divide-gray-700 overflow-hidden rounded-3xl border border-gray-100 text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
-            <div
-                class="group relative   bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+        <div class="mt-16 grid divide-x divide-y-2 divide-orange-400 overflow-hidden rounded-3xl border-1 border-orange-400 text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                     <img src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png" class="w-12" width="512"
                         height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5
-                            class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-700 ransition group-hover:text-secondary">
                             Масла и жидкости
                         </h5>
                         <p class="text-gray-600 text-gray-300">
@@ -28,15 +25,13 @@
                     </a>
                 </div>
             </div>
-            <div
-                class="group relative   bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                     <img src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png" class="w-12" width="512"
                         height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5
-                            class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-secondary">
                             Фильтры
                         </h5>
                         <p class="text-gray-600 text-gray-300">
@@ -55,15 +50,13 @@
                     </a>
                 </div>
             </div>
-            <div
-                class="group relative   bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
+            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
                 <div class="relative space-y-8 py-12 p-8">
                     <img src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png" class="w-12" width="512"
                         height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5
-                            class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-700  transition group-hover:text-secondary">
                             Аккумуляторы
                         </h5>
                         <p class="text-gray-600 text-gray-300">
@@ -81,16 +74,13 @@
                     </a>
                 </div>
             </div>
-            <div
-                class="group relative bg-gray-800 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10">
-                <div
-                    class="relative space-y-8 py-12 p-8 transition duration-300 group-hover:  group-hover:bg-gray-800">
+            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10"">
+                <div class="relative space-y-8 py-12 p-8 transition duration-300">
                     <img src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png" class="w-12" width="512"
                         height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5
-                            class="text-xl font-semibold text-gray-700 text-white transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-secondary">
                             Химия
                         </h5>
                         <p class="text-gray-600 text-gray-300">
