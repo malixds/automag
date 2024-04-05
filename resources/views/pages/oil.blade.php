@@ -47,8 +47,7 @@
                     </p>
                     <div class="divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="mt-8 flex gap-4 md:items-center">
-                            <div
-                                class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
                                 <p class="text-orange-400 m-auto font-bold">1</p>
                             </div>
                             <div class="w-5/6">

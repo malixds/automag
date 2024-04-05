@@ -1,21 +1,22 @@
 <div id="features">
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-        <div class="mt-16 grid divide-x divide-y-2 divide-orange-400 overflow-hidden rounded-3xl border-1 border-orange-400 text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
-            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
+        <div class="mt-16 grid overflow-hidden text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+            <div
+                class="group mr-5 border-1 border-orange-400 rounded-3xl relative  transition hover:bg-orange-400 hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10 400">
                 <div class="relative space-y-8 py-12 p-8">
                     <img src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png" class="w-12" width="512"
                         height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5 class="text-xl font-semibold text-gray-700 ransition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-600  ransition group-hover:text-white">
                             Масла и жидкости
                         </h5>
-                        <p class="text-gray-600 text-gray-300">
+                        <p class="text-gray-600 group-hover:text-white">
                             Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
                         </p>
                     </div>
-                    <a href="{{ url('/oil') }}" class="flex items-center justify-between group-hover:text-secondary">
-                        <span class="text-sm">Read more</span>
+                    <a href="{{ url('/oil') }}" class="flex items-center  justify-between group-hover:text-white">
+                        <span class="text-sm ">Read more</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                             <path fill-rule="evenodd"
@@ -25,21 +26,22 @@
                     </a>
                 </div>
             </div>
-            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
-                <div class="relative space-y-8 py-12 p-8">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png" class="w-12" width="512"
-                        height="512" alt="burger illustration">
+            <div
+                class="mr-5 border-1 border-orange-400 rounded-3xl relative  transition hover:bg-orange-400 hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10 400">
+                <div class="group relative space-y-8 py-12 p-8">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png" class="w-12"
+                        width="512" height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-white">
                             Фильтры
                         </h5>
-                        <p class="text-gray-600 text-gray-300">
+                        <p class="text-gray-600 group-hover:text-white">
                             Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
                         </p>
                     </div>
                     <a href="{{ url('/filters') }}"
-                        class="flex items-center justify-between group-hover:text-secondary">
+                        class="flex items-center justify-between group-hover:text-white">
                         <span class="text-sm">Read more</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
@@ -50,21 +52,22 @@
                     </a>
                 </div>
             </div>
-            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10">
+            <div
+                class="group mr-5 border-1 border-orange-400 rounded-3xl relative  transition hover:bg-orange-400 hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10 400">
                 <div class="relative space-y-8 py-12 p-8">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png" class="w-12" width="512"
-                        height="512" alt="burger illustration">
-
+                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png" class="w-12"
+                        width="512" height="512" alt="burger illustration">
                     <div class="space-y-2">
-                        <h5 class="text-xl font-semibold text-gray-700  transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-600  ransition group-hover:text-white">
                             Аккумуляторы
                         </h5>
-                        <p class="text-gray-600 text-gray-300">
+                        <p class="text-gray-600 group-hover:text-white">
                             Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
                         </p>
                     </div>
-                    <a href="{{ url('/accum') }}" class="flex items-center justify-between group-hover:text-secondary">
-                        <span class="text-sm">Read more</span>
+                    <a href="{{ url('/accum') }}"
+                        class="flex items-center  justify-between group-hover:text-white">
+                        <span class="text-sm ">Read more</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                             <path fill-rule="evenodd"
@@ -74,22 +77,23 @@
                     </a>
                 </div>
             </div>
-            <div class="group relative bg-white transition hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10"">
-                <div class="relative space-y-8 py-12 p-8 transition duration-300">
-                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png" class="w-12" width="512"
-                        height="512" alt="burger illustration">
+            <div
+                class="group mr-5 border-1 border-orange-400 rounded-3xl relative  transition hover:bg-orange-400 hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10 400">
+                <div class="relative space-y-8 py-12 p-8">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png" class="w-12"
+                        width="512" height="512" alt="burger illustration">
 
                     <div class="space-y-2">
-                        <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-secondary">
+                        <h5 class="text-xl font-semibold text-gray-600  ransition group-hover:text-white">
                             Химия
                         </h5>
-                        <p class="text-gray-600 text-gray-300">
+                        <p class="text-gray-600 group-hover:text-white">
                             Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
                         </p>
                     </div>
                     <a href="{{ url('/chemistry') }}"
-                        class="flex items-center justify-between group-hover:text-secondary">
-                        <span class="text-sm">Read more</span>
+                        class="flex items-center  justify-between group-hover:text-white">
+                        <span class="text-sm ">Read more</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                             class="w-5 h-5 -translate-x-4 text-2xl opacity-0 transition duration-300 group-hover:translate-x-0 group-hover:opacity-100">
                             <path fill-rule="evenodd"

@@ -15,7 +15,7 @@
             <div
                 class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12">
                 <div class="md:5/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-gray-900 md:text-4xl text-white">
+                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
                         Производители
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300">
@@ -27,7 +27,7 @@
                     </p>
                 </div>
                 <div class="md:7/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-gray-900 md:text-4xl text-white">
+                    <h2 class="text-3xl font-bold  text-orange-400 md:text-4xl">
                         Фильтры
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300">
@@ -35,9 +35,8 @@
                     </p>
                     <div class="divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="mt-8 flex gap-4 md:items-center">
-                            <div style="background-color: #0f2131;"
-                                class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 bg-indigo-900/20">
-                                <p style="margin: auto auto; color: #2dd4bf;">1</p>
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
+                                <p class="text-orange-400 m-auto font-bold">1</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Масляные
@@ -47,9 +46,8 @@
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
-                            <div style="background-color: #0f2131;"
-                                class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 bg-indigo-900/20">
-                                <p style="margin: auto auto; color: #2dd4bf;">2</p>
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
+                                <p class="text-orange-400 m-auto font-bold">2</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Воздушные</h3>
@@ -58,9 +56,8 @@
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
-                            <div style="background-color: #0f2131;"
-                                class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 bg-indigo-900/20">
-                                <p style="margin: auto auto; color: #2dd4bf;">3</p>
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
+                                <p class="text-orange-400 m-auto font-bold">3</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300"> Топливные</h3>
@@ -69,9 +66,8 @@
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
-                            <div style="background-color: #0f2131;"
-                                class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 bg-indigo-900/20">
-                                <p style="margin: auto auto; color: #2dd4bf;">4</p>
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
+                                <p class="text-orange-400 m-auto font-bold">4</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Салонные</h3>
@@ -80,9 +76,8 @@
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
-                            <div style="background-color: #0f2131;"
-                                class="w-12 h-12 flex gap-4 rounded-full bg-indigo-100 bg-indigo-900/20">
-                                <p style="margin: auto auto; color: #2dd4bf;">5</p>
+                            <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
+                                <p class="text-orange-400 m-auto font-bold">5</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Гидравлические</h3>
