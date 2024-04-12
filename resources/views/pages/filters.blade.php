@@ -1,8 +1,14 @@
 @extends('layouts.default')
 
 @section('content')
+<div class="home relative" id="home">
+    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
+        <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
+        <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
+    </div>
+</div>
 <main class="space-y-40 mb-40">
-    <div id="solution" class="mt-20">
+    <div id="solution" class="pt-36">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-sky-500">
                 <path fill-rule="evenodd"
@@ -13,19 +19,7 @@
                     clip-rule="evenodd"></path>
             </svg>
             <div
-                class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12">
-                <div class="md:5/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
-                        Производители
-                    </h2>
-                    <p class="my-8 text-gray-600 text-gray-300">
-                        ANN- Filter, Filtron, SCT, Donaldson, Knecht/Mahle, Bosch, Toyota, Hyundai/Kia, Volkswagen,
-                        Renault, Sakura и многие др
-                    </p>
-                    <p class="my-8 text-gray-600 text-gray-300">
-                        Если чего не окажется, доставим в течении 1-3 дней.
-                    </p>
-                </div>
+                class="space-y-6 justify-between text-gray-600 md:flex md:flex-row md:gap-6 md:space-y-0 lg:gap-12">
                 <div class="md:7/12 lg:w-1/2">
                     <h2 class="text-3xl font-bold  text-orange-400 md:text-4xl">
                         Фильтры
@@ -86,6 +80,18 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="md:5/12 lg:w-1/2">
+                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+                        Производители
+                    </h2>
+                    <p class="my-8 text-gray-600 text-gray-300">
+                        ANN- Filter, Filtron, SCT, Donaldson, Knecht/Mahle, Bosch, Toyota, Hyundai/Kia, Volkswagen,
+                        Renault, Sakura и многие др
+                    </p>
+                    <p class="my-8 text-gray-600 text-gray-300">
+                        Если чего не окажется, доставим в течении 1-3 дней.
+                    </p>
                 </div>
             </div>
         </div>

@@ -18,20 +18,21 @@
 
 
 </head>
+
 <body class="astro-4L22QGTD">
-@include('includes.header')
-@yield('content')
+    @include('includes.header')
+    @yield('content')
 
 
 
-<!-- <body class="bg-gray-900 astro-4L22QGTD">
+    <!-- <body class="bg-gray-900 astro-4L22QGTD">
     <main class="space-y-40 mb-40">
 
     </main>
 </body> -->
 
-@include('includes.footer')
-<script type="module">
+    @include('includes.footer')
+    <script type="module">
         let e = !1;
         const s = document.querySelector("#navlinks"),
             l = document.querySelector("#hamburger"),
@@ -52,7 +53,15 @@
                 e = !e, a()
             })
         });
-
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 </body>

@@ -1814,7 +1814,31 @@ body {
     text-align: center;
 }
 
+/*
+#home {
+    background-image: url("../../public/images/main.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 49% auto;
+    border-radius: 20px;
+} */
+@media (max-width:1023px) {
+    #navlinks {
+        opacity: 0;
+    }
+}
 
-.features__block {
 
+@media (max-width:790px){
+    .trans__img{
+        display: none;
+    }
+    .trans__content {
+        max-width: 100% !important;
+    }
+}
+
+
+.solution__content {
+    top:2% !important;
 }
