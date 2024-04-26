@@ -26,7 +26,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Присадки в масла
                                 </h3>
-                                <p class="text-gray-500 text-gray-400"></p>
+                                <p class="text-gray-500 text-gray-400">Улучшение свойств и производительности моторных масел</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -36,7 +36,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Очистители различных
                                     систем (охлаждающих, маслянных, тормозных) </h3>
-                                <p class="text-gray-500 text-gray-400"></p>
+                                <p class="text-gray-500 text-gray-400">Удаление загрязнений для поддержания эффективной работы систем</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -45,8 +45,8 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Раскоксовки поршневых
-                                    колес</h3>
-                                <p class="text-gray-500 text-gray-400"></p>
+                                    колец</h3>
+                                <p class="text-gray-500 text-gray-400">Устранение углеродных отложений для восстановления производительности двигателя</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -55,8 +55,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Полироли</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Повышение блеска и защита поверхностей от коррозии</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -65,8 +64,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Герметики</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Создание герметичных соединений для предотвращения утечек</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -75,8 +73,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Жидкие ключи</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Смазка и защита различных соединений и механизмов</p>
                             </div>
                         </div>
                     </div>
@@ -89,7 +86,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Размораживатели</h3>
-                                <p class="text-gray-500 text-gray-400"></p>
+                                <p class="text-gray-500 text-gray-400">Разрушение льда и обледенения для обеспечения безопасности на дороге</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -98,7 +95,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Шампуни</h3>
-                                <p class="text-gray-500 text-gray-400"></p>
+                                <p class="text-gray-500 text-gray-400">Очистка и уход за поверхностями различных материалов</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -108,8 +105,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Краска в баллончиках
                                 </h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Легкое и равномерное нанесение краски на различные поверхности</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -119,8 +115,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Антигели и
                                     размораживатели для дизеля</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Предотвращение замерзания дизельного топлива и выхода из строя топливной аппаратуры</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -129,7 +124,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Антигравий</h3>
-                                <p class="text-gray-500 text-gray-400"></p>
+                                <p class="text-gray-500 text-gray-400">Защита кузова автомобиля от ударов и сколов, от камней и гравия</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -139,8 +134,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Мастика/Растворители
                                 </h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Создание герметичных соединений и заполнение трещин и щелей. Разбавление красок, лаков и других растворимых веществ</p>
                             </div>
                         </div>
                     </div>

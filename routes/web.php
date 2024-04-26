@@ -15,10 +15,11 @@ use App\Http\Controllers\MainController;
 */
 
 
-Route::get('/', [MainController::class, 'show']);
-Route::get('/oil', [MainController::class, 'oil']);
-Route::get('/accum', [MainController::class, 'accum']);
-Route::get('/filters', [MainController::class, 'filters']);
-Route::get('/chemistry', [MainController::class, 'chemistry']);
+Route::get('/', [MainController::class, 'show'])->name('main');
+Route::get('/oil', [MainController::class, 'oil'])->name('oil');
+Route::get('/accum', [MainController::class, 'accum'])->name('accum');
+Route::get('/filters', [MainController::class, 'filters'])->name('filters');
+Route::get('/chemistry', [MainController::class, 'chemistry'])->name('chemistry');
+Route::get('/about', [MainController::class, 'about'])->name('about');
 // Route::get('/', [MainController::class, 'show']);
 

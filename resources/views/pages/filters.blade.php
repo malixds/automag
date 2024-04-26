@@ -35,8 +35,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Масляные
                                 </h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Удаление загрязнений из моторного масла для защиты двигателя</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -45,8 +44,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Воздушные</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Очистка воздуха, поступающего в двигатель, от пыли и загрязнений</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -55,8 +53,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300"> Топливные</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Очистка топлива перед подачей в двигатель для предотвращения повреждений</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -65,8 +62,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Салонные</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Фильтрация воздуха в салоне от пыли, аллергенов и запахов</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -75,8 +71,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Гидравлические</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Удаление загрязнений из гидравлических систем для обеспечения их надежной работы</p>
                             </div>
                         </div>
                     </div>
@@ -86,12 +81,16 @@
                         Производители
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300">
-                        ANN- Filter, Filtron, SCT, Donaldson, Knecht/Mahle, Bosch, Toyota, Hyundai/Kia, Volkswagen,
+                        MANN- Filter, Filtron, SCT, Donaldson, Knecht/Mahle, Bosch, Toyota, Hyundai/Kia, Volkswagen,
                         Renault, Sakura и многие др
                     </p>
                     <p class="my-8 text-gray-600 text-gray-300">
-                        Если чего не окажется, доставим в течении 1-3 дней.
+                        Если чего-то не окажется, доставим необходимый товар в Камышин в течение 1-3 дней
                     </p>
+                    <div class="lg:block sm:hidden">
+                        <img src="{{ asset('images/man.svg') }}" alt="image" loading="lazy" width=""
+                            height="" class="w-full">
+                    </div>
                 </div>
             </div>
         </div>

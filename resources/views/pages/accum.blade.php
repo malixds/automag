@@ -1,12 +1,12 @@
 @extends('layouts.default')
 
 @section('content')
-<div class="home relative" id="home">
-    <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
-        <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
-        <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
+    <div class="home relative" id="home">
+        <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
+        </div>
     </div>
-</div>
     <div id="solution" class="pt-36">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-sky-500">
@@ -18,7 +18,7 @@
                     clip-rule="evenodd"></path>
             </svg>
             <div
-                class="space-y-6 justify-between text-gray-600 md:flex md:flex-row md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
+                class="space-y-6 lg:flex justify-between text-gray-600 md:flex md:flex-row md:gap-6 md:space-y-0 lg:gap-12">
                 <div class="md:7/12 lg:w-1/2">
                     <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
                         Аккумуляторы
@@ -54,8 +54,8 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300"> Зарядные и пусковые
                                     устройства для аккумуляторов</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Зарядка и запуск разряженных аккумуляторов
+                                    автомобилей и другой техники</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -65,8 +65,8 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Проверяем каждый
                                     аккумулятор перед выдачей клиенту</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                {{-- <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
+                                    mollitia.</p> --}}
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -76,17 +76,40 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">На все аккумуляторы
                                     предоставляется гарантия</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                {{-- <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
+                                    mollitia.</p> --}}
                             </div>
                         </div>
-                        <p class="text-gray-500 text-gray-400">По желанию клиента доставим любой другой аккумулятор
-                            в течении 1-3 дней</p>
+                        <p class="pt-3 text-gray-500 text-gray-400">По желанию клиента доставим любой другой аккумулятор
+                            в магазин в течениe 1-3 дней</p>
                     </div>
                 </div>
                 <div class="md:5/12 lg:w-1/2">
-                    <img src="./images/pie.svg" alt="image" loading="lazy" width="" height=""
-                        class="w-full">
+                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+                        Возникли вопросы?
+                    </h2>
+                    <p class="mt-8 text-gray-600 text-gray-300">
+                        Претензии по гарантийному обслуживанию аккумуляторов принимаются в офисе по адресу улица Некрасова,
+                        дом 2
+                    </p>
+                    <div class="mt-3 text-gray-600">Звоните по номерам телефонов: <br>
+                        <div class="flex mt-2">
+                            <i class="fa-solid fa-phone mr-2 mt-1"></i>
+                            <a href="tel:8-844-57-47800" class="text-orange-400">
+                                8-844-57-47800
+                            </a>
+                        </div>
+                        <div class="flex mt-2">
+                            <i class="fa-solid fa-phone mr-2 mt-1"></i>
+                            <a href="tel:+79061740453" class="text-orange-400">
+                                +79061740453
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lg:block sm:hidden">
+                        <img src="{{ asset('images/bat.svg') }}" alt="image" loading="lazy" width="" height=""
+                            class="w-full">
+                    </div>
                 </div>
             </div>
         </div>

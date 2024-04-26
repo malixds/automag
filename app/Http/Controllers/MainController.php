@@ -25,4 +25,7 @@ class MainController extends Controller
     public function chemistry() {
         return view('pages.chemistry');
     }
+    public function about() {
+        return view('pages.about');
+    }
 }

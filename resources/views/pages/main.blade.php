@@ -9,19 +9,26 @@
         <div class="max-w-8xl mx-auto px-6 md:px-12 xl:px-6">
             <div class="relative pt-36 ml-auto">
                 <div class="lg:w-3/3 text-center mx-auto">
-                    <h1 class="lg:w-2/3 mx-auto text-orange-400 font-bold text-5xl md:text-6xl xl:text-7xl">Автомаг
-                        рядом</h1>
-                    <p class="lg:w-2/3 mx-auto mt-8 text-lg text-gray-700 text-gray-300">Компания Автомаг работает в г.
+                    <h1 class="lg:w-2/3 mx-auto text-orange-400 font-bold text-5xl md:text-6xl xl:text-7xl">Сеть магазинов
+                        Автомаг</h1>
+                    <p class="main__text lg:w-2/3 mx-auto mt-8 text-lg text-gray-700 text-gray-300">Компания Автомаг
+                        работает в г.
                         Камышине
                         более 20 лет. За это время мы наработали надежные и долгосрочные связи с добросовестными,
                         проверенными временем поставщиками. Для нас всегда оставалось главным приоритетом подлинность,
                         оригинальность наших товаров. Мы прилагаем все усилия, чтобы на полки наших магазинов не попала
                         контрафактная или сомнительного происхождения продукция. </p>
                     <div class=" mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                        <button type="button" data-modal-target="static-modal"
-                            data-modal-toggle="static-modal"class="before:bg-orange-400 relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max astro-ARE2YTNH">
-                            <span class="relative text-sm font-semibold text-white astro-ARE2YTNH">Контакты</span>
+
+                        <button data-modal-target="static-modal" data-modal-toggle="static-modal"
+                            class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-[#fc9760] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                            <span class="relative text-base font-semibold text-white">Контакты</span>
                         </button>
+                        <a href="{{ route('about') }}"
+                            class="link__about relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-gray-500 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 before:border-gray-700 before:bg-gray-800 sm:w-max">
+                            <span class="relative text-base font-semibold text-primary text-white">О нас</span>
+                        </a>
+
                         {{-- <a href="#"
                                 class="relative before:bg-[#9ca3af]  flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-gray-500 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 before:border-gray-700 before:bg-gray-800 sm:w-max">
                                 <span class="relative text-base font-semibold text-primary text-white">Learn
@@ -36,10 +43,10 @@
                         </div>
                         <div class="text-center col-3 text-left">
                             <h6 class="text-lg font-semibold text-orange-400">Быстрая доставка</h6>
-                            <p class="mt-2 text-gray-500">Закажем и доставим необходимый товар в магазин за три дня</p>
+                            <p class="mt-2 text-gray-500">Закажем и доставим требуемый товар в магазин за три дня</p>
                         </div>
                         <div class="text-center col-3 text-left">
-                            <h6 class="text-lg font-semibold text-orange-400">Качественная продукция</h6>
+                            <h6 class="text-lg font-semibold text-orange-400">Качественные товары</h6>
                             <p class="mt-2 text-gray-500">Наши магазины предоставлюят только качественный и оригинальный
                                 товар</p>
                         </div>
@@ -74,28 +81,7 @@
             </div>
         </div>
     </div>
-
-
-    <div id="features">
-        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-            <div class="md:w-2/3 lg:w-1/2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                    class="w-6 h-6 text-sky-500">
-                    <path fill-rule="evenodd"
-                        d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
-                        clip-rule="evenodd"></path>
-                </svg>
-                <h2 class="my-8 text-2xl font-bold text-orange-400 md:text-4xl">
-                    Продукция первой необходимости для вашего автомобиля
-                </h2>
-                <p class="text-gray-600 text-gray-300">Мы предоставляем огромный ассортимент товаров, которые обеспечат
-                    вашему автомобилю надежную защиту и безупречную производительность. Мы гордимся предлагаемым выбором
-                    высококачественных масел различных марок и вязкостей, фильтров для всех типов и моделей автомобилей,
-                    а также надежных аккумуляторов, способных обеспечить бесперебойную работу вашего транспортного
-                    средства. Кроме того, у нас имеется широкий ассортимент химических продуктов для технического
-                    обслуживания автомобиля</p>
-            </div>
-            <div
+    {{-- <div
                 class="mt-16 grid overflow-hidden text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
                 <div
                     class="group mb-3 mr-5 border-1 bg-orange-400 rounded-3xl relative  transition hover:bg-white hover:z-[1] hover:shadow-2xl hover:shadow-orange-600/10 400">
@@ -108,7 +94,7 @@
                                 Масла и жидкости
                             </h5>
                             <p class="text-gray-50 group-hover:text-gray-600">
-                                Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                                Смело повышайте производительность и срок службы своего двигателя
                             </p>
                         </div>
                         <a href="{{ url('/oil') }}"
@@ -134,7 +120,8 @@
                                 Фильтры
                             </h5>
                             <p class="text-gray-50 group-hover:text-gray-600">
-                                Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                                Предотварите попадание загрязнений, обеспечивая безопасность и долговечность своего
+                                автомобиля
                             </p>
                         </div>
                         <a href="{{ url('/filters') }}"
@@ -160,7 +147,7 @@
                                 Аккумуляторы
                             </h5>
                             <p class="text-gray-50 group-hover:text-gray-600">
-                                Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                                Обеспечьте надежную работу электрооборудования и запуск двигателя
                             </p>
                         </div>
                         <a href="{{ url('/accum') }}"
@@ -186,7 +173,7 @@
                                 Химия
                             </h5>
                             <p class="text-gray-50 group-hover:text-gray-600">
-                                Neque Dolor, fugiat non cum doloribus aperiam voluptates nostrum.
+                                Защитите кузов свой любимой машины от коррозии и износа
                             </p>
                         </div>
                         <a href="{{ url('/chemistry') }}"
@@ -201,14 +188,118 @@
                         </a>
                     </div>
                 </div>
+            </div> --}}
+
+
+    <div id="features" class="mt-40">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+            <div class="md:w-2/3 lg:w-1/2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="w-6 h-6 text-sky-500">
+                    <path fill-rule="evenodd"
+                        d="M9 4.5a.75.75 0 01.721.544l.813 2.846a3.75 3.75 0 002.576 2.576l2.846.813a.75.75 0 010 1.442l-2.846.813a3.75 3.75 0 00-2.576 2.576l-.813 2.846a.75.75 0 01-1.442 0l-.813-2.846a3.75 3.75 0 00-2.576-2.576l-2.846-.813a.75.75 0 010-1.442l2.846-.813A3.75 3.75 0 007.466 7.89l.813-2.846A.75.75 0 019 4.5zM18 1.5a.75.75 0 01.728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 010 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 01-1.456 0l-.258-1.036a2.625 2.625 0 00-1.91-1.91l-1.036-.258a.75.75 0 010-1.456l1.036-.258a2.625 2.625 0 001.91-1.91l.258-1.036A.75.75 0 0118 1.5zM16.5 15a.75.75 0 01.712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 010 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 01-1.422 0l-.395-1.183a1.5 1.5 0 00-.948-.948l-1.183-.395a.75.75 0 010-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0116.5 15z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <h2 class="my-8 text-2xl font-bold text-orange-400 md:text-4xl">
+                    Продукция первой необходимости для вашего автомобиля
+                </h2>
+                Мы предлагаем широкий выбор высококачественных масел, фильтров и аккумуляторов для вашего автомобиля, а
+                также большой ассортимент химических и косметических средств для его обслуживания</p>
+            </div>
+            <div
+                class="mt-16 grid lg:divide-x sm:divide-x divide-y divide-orange-400 overflow-hidden rounded-3xl border-1 border-orange-400 text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
+                <div
+                    class="group relative hover:bg-orange-400 transition hover:z-[1]  hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    <div class="relative space-y-8 pt-12 pb-4 p-8">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png" class="w-12" width="512"
+                            height="512" alt="burger illustration">
+
+                        <div class="space-y-2 lg:min-h-48 sm:min-h-36 ">
+                            <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-white">
+                                Масла и жидкости
+                            </h5>
+                            <p class="text-gray-600 group-hover:text-white">
+                                Смело повышайте производительность и срок службы своего двигателя
+                            </p>
+                        </div>
+                        <a href="{{ route('oil') }}"
+                            class="h-24 mt-0 flex items-center justify-between group-hover:text-white">
+                            <span class="text-sm">Подробнее</span>
+                            <i class="fa-solid fa-arrow-right text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="group relative hover:bg-orange-400 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    <div class="relative space-y-8 pt-12 pb-4 p-8">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png" class="w-12" width="512"
+                            height="512" alt="burger illustration">
+
+                        <div class="space-y-2 lg:min-h-48 sm:min-h-36 ">
+                            <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-white">
+                                Фильтры
+                            </h5>
+                            <p class="text-gray-600 group-hover:text-white">
+                                Обеспечьте безопасность и долговечность автомобиля, используя качественные фильтры
+                            </p>
+                        </div>
+                        <a href="{{ route('filters') }}"
+                            class="h-24 mt-0 flex items-center justify-between group-hover:text-white">
+                            <span class="text-sm">Подробнее</span>
+                            <i class="fa-solid fa-arrow-right text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="group relative hover:bg-orange-400 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    <div class="relative space-y-8 pt-12 pb-4 p-8">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png" class="w-12" width="512"
+                            height="512" alt="burger illustration">
+
+                        <div class="lg:min-h-48 sm:min-h-36 space-y-2">
+                            <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-white">
+                                Аккумуляторы
+                            </h5>
+                            <p class="text-gray-600 group-hover:text-white">
+                                Обеспечьте надежную работу электрооборудования и уверенный запуск двигателя
+                            </p>
+                        </div>
+                        <a href="{{ route('accum') }}"
+                            class="h-24 mt-0 flex items-center justify-between group-hover:text-white">
+                            <span class="text-sm">Подробнее</span>
+                            <i class="fa-solid fa-arrow-right text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="group hover:bg-orange-400 relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    <div class="relative space-y-8 pt-12 pb-4 p-8">
+                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png" class="w-12" width="512"
+                            height="512" alt="burger illustration">
+
+                        <div class="space-y-2 lg:min-h-48 sm:min-h-36 ">
+                            <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-white">
+                                Химия
+                            </h5>
+                            <p class="text-gray-600 group-hover:text-white">
+                                Защитите кузов свой любимой машины от коррозии и износа
+                            </p>
+                        </div>
+                        <a href="{{ route('chemistry') }}"
+                            class="h-24 mt-0 flex items-center justify-between group-hover:text-white">
+                            <span class="text-sm">Подробнее</span>
+                            <i class="fa-solid fa-arrow-right text-white"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="solution">
+    <div id="solution" class="mt-40">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
             <div class="md:w-2/3 lg:w-1/2">
                 <h2 class="my-8 text-2xl font-bold text-orange-400 md:text-4xl">
-                    Удобства и запчасти для вашего автомобиля
+                    Другие необходимые товары для вашего автомобиля
                 </h2>
                 <p class="text-gray-600 text-gray-300">Широкий выбор антифризов, тосолов, электрооборудования и
                     аксессуаров для вашего автомобиля.
@@ -217,11 +308,11 @@
             </div>
             <div
                 class="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
-                <div class="trans__img sm:w-5/12 md:w-5/12 lg:w-1/3 my-auto">
-                    <img src="{{ asset('images/trans.png') }}" alt="image" loading="lazy" width=""
-                        height="" class="w-full">
+                <div class="trans__img md:w-5/12 lg:w-4/9 my-auto">
+                    <img class="" src="{{ asset('images/comfort.svg') }}" alt="image" loading="lazy"
+                        width="" height="" class="w-full">
                 </div>
-                <div class="trans__content sm:w-12/12 md:w-7/12 lg:w-2/3">
+                <div class="trans__content sm:w-12/12 md:w-7/12 lg:w-5/9">
                     <div class=" divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="divide-y space-y-4 divide-gray-100 divide-gray-800" id="accordion-flush"
                             data-accordion="collapse" data-active-classes="bg-transparent text-gray-900 text-white"
@@ -250,7 +341,7 @@
                                 <div class="py-3 bg-transparent">
                                     <p class="mb-2 text-gray-500 text-gray-400">MOTUL, Felix, Синтек, Аляска, Ravenol,
                                         Toyota, Mannol, Gazpromneft, G-Energy, Luxoil. <br>
-                                        Если клиенту нужно что-то другое, доставим в течении 1-3 дней.</p>
+                                        Если клиенту нужно что-то другое, доставим в течение 1-3 дней.</p>
                                 </div>
                             </div>
                             <div id="accordion-collapse-heading-2 cursor-pointer">
@@ -323,105 +414,6 @@
                                     </ul>
                                 </div>
                             </div>
-
-                            <div id="accordion-collapse-heading-4 cursor-pointer">
-                                <div class="mt-8 flex gap-4 md:items-center cursor-pointer"
-                                    data-accordion-target="#accordion-collapse-body-4" aria-expanded="true"
-                                    aria-controls="accordion-collapse-body-4">
-                                    <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-6 h-6 m-auto text-orange-500 text-orange-400">
-                                            <path fill-rule="evenodd"
-                                                d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-orange-400">Запчасти на заказ
-                                        </h3>
-                                        <p class="text-gray-500 text-gray-400"></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="accordion-collapse-body-4" class="hidden"
-                                aria-labelledby="accordion-collapse-heading-4">
-                                <div class="p-2">
-                                    <p class="mb-2 text-gray-500 text-gray-400">Привезем любые запчасти для иномарок
-                                        под заказ. Время доставки 1-3 дня. <br>
-                                        Наши консультанты помогут вам подобрать необходимые запчасти. Если деталь не
-                                        подошла, мы ее без проблем вернем обратно. Клиент оплачивает
-                                        <strong>после</strong>
-                                        поступления и осмотра деталей.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div id="accordion-collapse-heading-5 cursor-pointer">
-                                <div class="mt-8 flex gap-4 md:items-center cursor-pointer"
-                                    data-accordion-target="#accordion-collapse-body-5" aria-expanded="true"
-                                    aria-controls="accordion-collapse-body-5">
-                                    <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                                            class="w-6 h-6 m-auto text-orange-500 text-orange-400">
-                                            <path fill-rule="evenodd"
-                                                d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z"
-                                                clip-rule="evenodd"></path>
-                                        </svg>
-                                    </div>
-                                    <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-orange-400">Замене масел,
-                                            антифризов, фильтров / монтаж шин
-                                        </h3>
-                                        <p class="text-gray-500 text-gray-400"></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="accordion-collapse-body-5" class="hidden"
-                                aria-labelledby="accordion-collapse-heading-5">
-                                <div class="p-2">
-                                    <p class="mb-2 text-gray-500 text-gray-400">При наших магазинах работают пункты
-                                        замены масла, где быстро, качественно и недорого вам заменят масла, фильтры,
-                                        свечи, колодки, лампочки. </p>
-                                    <ul>
-                                        <li class="mb-2 text-gray-500 text-gray-400">
-                                            <strong>Замена масла на улице Базарова, 62</strong> <br>
-                                            <a href="tel:+79377089152 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                                                +79377089152
-                                            </a>
-                                            <a href="tel:+79026592765 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                                                +79026592765
-                                            </a>
-                                            <a href="tel:+79044272069 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                                                +79044272069
-                                            </a>
-                                        </li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">
-                                            <strong>Замены масла на улице 22 Партсьезда, 8А</strong> <br>
-                                            <a href="tel:+79272587353 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                                                +79272587353
-                                            </a>
-                                            <a href="tel:+79020905587 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                                                +79020905587
-                                            </a>
-                                        </li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">
-                                            <strong>Монтаж шин на улице 22 Партсьезда, 8А</strong> <br>
-                                            <a href="tel:+79275355315 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                                                +79275355315
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-
-
                             <div id="accordion-collapse-heading-6 cursor-pointer">
                                 <div class="mt-8 flex gap-4 md:items-center cursor-pointer"
                                     data-accordion-target="#accordion-collapse-body-6" aria-expanded="true"
@@ -459,41 +451,123 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div id="accordion-collapse-heading-4 cursor-pointer">
+                                <div class="mt-8 flex gap-4 md:items-center cursor-pointer"
+                                    data-accordion-target="#accordion-collapse-body-4" aria-expanded="true"
+                                    aria-controls="accordion-collapse-body-4">
+                                    <div class="w-12 h-12 flex gap-4 rounded-full bg-teal-100">
+                                        <i class="fa-solid fa-toolbox mx-auto my-auto fa-xl" style="color: #5eead4;"></i>
+                                    </div>
+                                    <div class="w-5/6">
+                                        <h3 class="font-semibold text-lg text-teal-300">Запчасти на заказ
+                                        </h3>
+                                        <p class="text-gray-500 text-gray-400"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="accordion-collapse-body-4" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-4">
+                                <div class="p-2">
+                                    <p class="mb-2 text-gray-500 text-gray-400">Привезем любые запчасти для иномарок
+                                        под заказ. Время доставки 1-3 дня. <br>
+                                        Наши консультанты помогут вам подобрать необходимые запчасти. Если деталь не
+                                        подошла, мы ее без проблем вернем обратно. Клиент оплачивает
+                                        <strong>после</strong>
+                                        получения и осмотра деталей.
+                                    </p>
+                                    <p class="mb-2 text-gray-500 text-gray-400 ">
+                                        <strong>Примечание: при заказе запчастей может понадобится VIN-код вашего
+                                            автомобиля</strong>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="accordion-collapse-heading-5 cursor-pointer">
+                                <div class="mt-8 flex gap-4 md:items-center cursor-pointer"
+                                    data-accordion-target="#accordion-collapse-body-5" aria-expanded="true"
+                                    aria-controls="accordion-collapse-body-5">
+                                    <div class="w-12 h-12 flex gap-4 rounded-full bg-purple-100">
+                                        <i class="fa-solid fa-rotate fa-xl m-auto" style="color:#818cf8;"></i>
+                                    </div>
+                                    <div class="w-5/6">
+                                        <h3 class="font-semibold text-lg text-purple-400">
+                                            Пункты замены масел, антифризов, фильтров <br> Шиномонтаж
+                                        </h3>
+                                        <p class="text-gray-500 text-gray-400"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="accordion-collapse-body-5" class="hidden"
+                                aria-labelledby="accordion-collapse-heading-5">
+                                <div class="p-2">
+                                    <p class="mb-2 text-gray-500 text-gray-400">При наших магазинах работают пункты
+                                        замены масла, где быстро, качественно и недорого вам заменят масла, фильтры,
+                                        свечи, колодки, лампочки. </p>
+                                    <ul>
+                                        <li class="mb-2 text-gray-500 text-gray-400">
+                                            <strong>Пункт замены масла на улице Базарова, 62</strong> <br>
+                                            <a href="tel:+79377089152 "
+                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                                +79377089152
+                                            </a>
+                                            <a href="tel:+79026592765 "
+                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                                +79026592765
+                                            </a>
+                                            <a href="tel:+79044272069 "
+                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                                +79044272069
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 text-gray-500 text-gray-400">
+                                            <strong>Пункт замены на улице 22 Партсъезда, 8А</strong> <br>
+                                            <a href="tel:+79272587353 "
+                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                                +79272587353
+                                            </a>
+                                            <a href="tel:+79020905587 "
+                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                                +79020905587
+                                            </a>
+                                        </li>
+                                        <li class="mb-2 text-gray-500 text-gray-400">
+                                            <strong>Монтаж шин на улице 22 Партсъезда, 8А</strong> <br>
+                                            <a href="tel:+79275355315 "
+                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                                +79275355315
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="gifts" class="relative py-16">
-        <div aria-hidden="true"
-            class="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
-            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
-            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
-        </div>
+    <div id="gifts" class="relative mt-40">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-            <div class="relative">
-
-                <div class="mt-6 m-auto space-y-6 md:w-8/12 lg:w-8/12">
-                    <h1 class="text-center text-4xl font-bold text-orange-400 md:text-5xl">Подарочные сетификаты</h1>
-                    <p class="text-center text-xl text-gray-600">
-                        Подарочный сертификат - идеальный выбор для автолюбителя. Гарантированно приятный подарок,
-                        который не оставит равнодушным<br>
-                        А для наших постоянных клиентов мы предлагаем уникальные скидочные карты - ваша выгода всегда с
-                        нами
+            <h1 class="text-center text-4xl font-bold text-orange-400 md:text-5xl">
+                <strong class="text-gray-700">Всегда в продаже <br> </strong>
+                Подарочные сетификаты
+            </h1>
+            <div class="relative row mt-10">
+                <div class="mt-6 m-auto space-y-6 md:w-5/12 lg:w-5/12 ">
+                    <p class=" text-xl text-gray-600 leading-loose" style="line-height: 2rem;">
+                        Подарочный сертификат - идеальный выбор для автолюбителя. Гарантированно полезный подарок,
+                        который не оставит равнодушным ни одного автовладельца.
+                        Для наших постоянных клиентов мы предлагаем уникальные скидочные карты
                     </p>
-                    {{-- <div class="flex flex-wrap justify-center gap-6">
-                            <a href="#"
-                                class="relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-[#fc9760] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
-                                <span class="relative text-base font-semibold text-white text-dark">Get
-                                    Started</span>
-                            </a>
-                        </div> --}}
+                </div>
+                <div class="mt-6 m-auto space-y-6 md:w-5/12 lg:w-5/12">
+                    <img src="{{ asset('images/gift.svg') }}" alt="">
                 </div>
             </div>
         </div>
     </div>
-    <div class="text-gray-600 text-gray-300" id="reviews">
+    <div class="text-gray-600 text-gray-300 mt-40" id="reviews">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
             <div class="mb-20 space-y-4 px-6 md:px-0">
                 <h2 class="text-center text-4xl font-bold text-orange-400 md:text-4xl">
@@ -584,7 +658,7 @@
             </div>
         </div>
     </div>
-    <div id="blog">
+    <div id="blog" class="mt-40">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
             <div class="mb-12 space-y-2 text-center">
                 <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">Мы здесь</h2>
@@ -602,16 +676,27 @@
                             style="display: block;"></iframe>
                     </div>
                     <div class="mt-6 p-6 sm:p-8  relative">
-                        <h3 class="text-2xl font-semibold text-orange-400">
-                            Улица Базарова, 62
+                        <h3 class="text-2xl font-semibold text-orange-400 map__title">
+                            Город Камышин, улица Базарова, 62
                         </h3>
-                        <p class="mt-6 mb-2 text-gray-600 text-gray-300">
+                        <div class="map__phones">
+                            <a href="tel:+79044272069"
+                                class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                +79044272069
+                            </a>
+                        </div>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Понедельник-суббота
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
                             8:30 - 18:00, без перерыва
                         </p>
-                        <a href="tel:+79044272069"
-                            class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                            +79044272069
-                        </a>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Воскресенье
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
+                            8:30 - 16:00, без перерыва
+                        </p>
                     </div>
                 </div>
                 <div
@@ -623,20 +708,32 @@
                             style="display: block;"></iframe>
                     </div>
                     <div class="mt-6 relative p-6 sm:p-8">
-                        <h3 class="text-2xl font-semibold text-orange-400">
-                            Улица 22 Партсъезда, 8а
+                        <h3 class="text-2xl font-semibold text-orange-400 map__title">
+                            Город Камышин, Улица 22 Партсъезда, 8А
                         </h3>
-                        <p class="mt-6 mb-2 text-gray-600 text-gray-300">
+                        <div class="map__phones">
+                            <a href="tel:+79585454287"
+                                class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                +79585454287
+                            </a>
+                            <a href="tel:8-844-57-93200"
+                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                8-844-57-93200
+                            </a>
+                        </div>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Понедельник-суббота
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
                             8:30 - 18:00, без перерыва
                         </p>
-                        <a href="tel:+79585454287"
-                            class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                            +79585454287
-                        </a>
-                        <a href="tel:8-844-57-93200"
-                            class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                            8-844-57-93200
-                        </a>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Воскресенье
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
+                            8:30 - 16:00, без перерыва
+                        </p>
+
                     </div>
 
                 </div>
@@ -648,30 +745,47 @@
                             style="display: block;"></iframe>
                     </div>
                     <div class="mt-6 relative p-6 sm:p-8">
-                        <h3 class="text-2xl font-semibold text-orange-400">
-                            Улица Некрасова, 2
+                        <h3 class="text-2xl font-semibold text-orange-400 map__title">
+                            Город Камышин, Улица Некрасова, 2
                         </h3>
-                        <p class="mt-6 mb-2 text-gray-600 text-gray-300">
+                        <div class="map__phones">
+                            <a href="tel:+79061740453"
+                                class="text-lg block  mb-2 text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                +79061740453
+                            </a>
+                            <a href="tel:8-844-57-47800,"
+                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
+                                8-844-57-47800
+                            </a>
+                        </div>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Понедельник-пятница
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
                             8:30 - 18:00, без перерыва
                         </p>
-                        <a href="tel:+79061740453"
-                            class="text-lg block  mb-2 text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                            +79061740453
-                        </a>
-                        <a href="tel:8-844-57-47800,"
-                            class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-400 transition">
-                            8-844-57-47800
-                        </a>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Суббота
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
+                            8:30 - 16:00, без перерыва
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500 font-bold">
+                            Воскресенье
+                        </p>
+                        <p class="text-sm leading-relaxed text-gray-500">
+                            Выходной
+                        </p>
                     </div>
 
                 </div>
             </div>
             <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                <a href="#"
+                <a href="tel:"
                     class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-[#fc9760] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                     <span class="relative text-base font-semibold text-white">Позвоните</span>
                 </a>
-                <a href="#"
+                <a href="mailto:"
                     class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-gray-500 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 before:border-gray-700 before:bg-gray-800 sm:w-max">
                     <span class="relative text-base font-semibold text-primary text-white">Напишите</span>
                 </a>

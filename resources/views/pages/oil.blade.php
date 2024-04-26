@@ -37,8 +37,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Моторные
                                 </h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Смазка и защита двигателя от износа и трения</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -47,8 +46,7 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Трансмиссионные</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Передача мощности и смазка передач и дифференциалов</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -58,8 +56,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300"> Масла для катеров,
                                     моторных лодок, садовой техники, инструмента</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Смазка и защита двигателей и механизмов от коррозии</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -69,8 +66,7 @@
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Промышленные масла
                                     (гидравлические, трансформаторные, СОЖи, компрессорные) </h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Смазка и защита оборудования в промышленности от износа</p>
                             </div>
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
@@ -79,23 +75,22 @@
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Гидравлические</h3>
-                                <p class="text-gray-500 text-gray-400">Asperiores nemo possimus nesciunt quam
-                                    mollitia.</p>
+                                <p class="text-gray-500 text-gray-400">Передача давления в гидравлических системах и смазка компонентов</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="md:5/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl ">
                         Иностранные производители
                     </h2>
-                    <p class="my-8 text-gray-600 text-gray-300">
+                    <p class="my-8 text-gray-600 text-gray-300 leading-7">
                         Mobil, Shell, CASTROL, Motul, Elf, Ravenol, Repsol, Bardahl, Kixx, Takayama, Addinol, Zic,
                         Oskar, Idemitsu, NGN, Repsol, Totachi, Xado, TAKAYAMA FORD HYUNDAI MAZDA MERCEDES MITSUBISHI
                         NISSAN SKODA SUBARU TOYOTA VOLKSWAGEN
                     </p>
                     <p class="my-8 text-gray-600 text-gray-300">
-                        Если чего не окажется, доставим в течении 1-3 дней.
+                        Если чего-то не окажется, доставим необходимый товар в Камышин в течение 1-3 дней
                     </p>
                     <h2 class="text-3xl font-bold text-orange-400 md:text-4xl ">
                         Отечественные производители
@@ -104,7 +99,7 @@
                         Лукойл, Газпромнефть, Роснефть, Синтек, ВМП-Авто, Rolf, G-energy
                     </p>
                     <p class="my-8 text-gray-600 text-gray-300">
-                        Если чего не окажется, доставим в течении 1-3 дней.
+                        Если чего-то не окажется, доставим необходимый товар в Камышин в течение 1-3 дней
                     </p>
                 </div>
             </div>

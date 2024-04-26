@@ -13,6 +13,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/ca0dc65707.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/index.9d5489f2.css" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
