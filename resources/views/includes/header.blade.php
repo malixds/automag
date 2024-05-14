@@ -5,10 +5,10 @@
                 <div class="relative z-20 flex w-full justify-between md:px-0 lg:w-max astro-ARE2YTNH">
                     <a href="/#home" aria-label="logo" class="flex items-center space-x-2 astro-ARE2YTNH">
                         <div aria-hidden="true" class="flex space-x-1 astro-ARE2YTNH">
-                            <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-white astro-ARE2YTNH"></div>
+                            <div class="h-4 w-4 rounded-2xl bg-gray-900 dark:bg-white astro-ARE2YTNH"></div>
                             <div class="h-6 w-2 bg-primary astro-ARE2YTNH"></div>
                         </div>
-                        <span class="text-2xl font-bold text-red-600 astro-ARE2YTNH">АВТО<span
+                        <span class="text-2xl font-bold text-orange-500 astro-ARE2YTNH">АВТО<span
                                 class="text-black">МАГ</span></span>
                     </a>
                     {{-- onclick="changeStyleNav()" --}}
@@ -16,10 +16,10 @@
                         <button onclick="" aria-label="humburger" id="hamburger"
                             class="relative -mr-6 p-6 astro-ARE2YTNH">
                             <div aria-hidden="true" id="line"
-                                class="m-auto h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300 astro-ARE2YTNH">
+                                class="m-auto h-0.5 w-5 rounded-2xl bg-sky-900 transition duration-300 dark:bg-gray-300 astro-ARE2YTNH">
                             </div>
                             <div aria-hidden="true" id="line2"
-                                class="m-auto mt-2 h-0.5 w-5 rounded bg-sky-900 transition duration-300 dark:bg-gray-300 astro-ARE2YTNH">
+                                class="m-auto mt-2 h-0.5 w-5 rounded-2xl bg-sky-900 transition duration-300 dark:bg-gray-300 astro-ARE2YTNH">
                             </div>
                         </button>
                     </div>
@@ -33,31 +33,31 @@
                         <ul class="flex flex-col gap-6 tracking-wide lg:flex-row lg:gap-0 lg:text-sm astro-ARE2YTNH">
                             <li class="astro-ARE2YTNH">
                                 <a href="/"
-                                    class="text-gray-500 hover:text-orange-400 block transition md:px-4 astro-ARE2YTNH navlinks__item">
+                                    class="text-gray-500 hover:text-orange-500 block transition md:px-4 astro-ARE2YTNH navlinks__item">
                                     <span class="">Домой</span>
                                 </a>
                             </li>
                             <li class="astro-ARE2YTNH">
                                 <a href="#features"
-                                    class="text-gray-500 hover:text-orange-400 block transition md:px-4 astro-ARE2YTNH navlinks__item">
+                                    class="text-gray-500 hover:text-orange-500 block transition md:px-4 astro-ARE2YTNH navlinks__item">
                                     <span class="">Услуги</span>
                                 </a>
                             </li>
                             <li class="astro-ARE2YTNH">
                                 <a href="/#gifts"
-                                    class="text-gray-500 hover:text-orange-400 block transition md:px-4 astro-ARE2YTNH navlinks__item">
+                                    class="text-gray-500 hover:text-orange-500 block transition md:px-4 astro-ARE2YTNH navlinks__item">
                                     <span class="">Сертификаты</span>
                                 </a>
                             </li>
                             <li class="astro-ARE2YTNH">
                                 <a href="/#reviews"
-                                    class="text-gray-500 hover:text-orange-400 block transition md:px-4 astro-ARE2YTNH navlinks__item">
+                                    class="text-gray-500 hover:text-orange-500 block transition md:px-4 astro-ARE2YTNH navlinks__item">
                                     <span class="astro-ARE2YTNH">Отзывы</span>
                                 </a>
                             </li>
                             <li class="astro-ARE2YTNH">
                                 <a href="/#blog"
-                                    class="text-gray-500 hover:text-orange-400 block transition md:px-4 astro-ARE2YTNH navlinks__item">
+                                    class="text-gray-500 hover:text-orange-500 block transition md:px-4 astro-ARE2YTNH navlinks__item">
                                     <span class="astro-ARE2YTNH">Карты</span>
                                 </a>
                             </li>
@@ -65,7 +65,7 @@
                     </div>
                     <div class="mt-12 lg:mt-0 astro-ARE2YTNH">
                         <button type="button" data-modal-target="static-modal"
-                            data-modal-toggle="static-modal"class="before:bg-orange-400 relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max astro-ARE2YTNH">
+                            data-modal-toggle="static-modal"class="before:bg-orange-500 relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-2xl before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max astro-ARE2YTNH">
                             <span class="relative text-sm font-semibold text-white astro-ARE2YTNH">Контакты</span>
                         </button>
                     </div>
@@ -77,10 +77,28 @@
                     console.log('links', links)
                     const windowWidth = window.innerWidth;
 
-                    hamburger.addEventListener('click', function() {
-                        // Переключаем класс у навигационного меню
-                        navlinks.classList.toggle('active');
+                    window.addEventListener('resize', function() {
+                        console.log('asdasd');
+                        if (hamburger.classList.contains('toggled')) {
+                            navlinks.style.display = 'flex';
+                        } else {
+                            // Если класс 'toggled' отсутствует, можно выполнить другие действия
+                            navlinks.style.display = 'none';
+                        }
                     });
+                    hamburger.addEventListener('click', function() {
+                        if (navlinks.style.display === 'none' || navlinks.style.display === '') {
+                            navlinks.style.display = 'inline-block';
+                        } else {
+                            navlinks.style.display = 'none';
+                        }
+                    });
+
+                    if (hamburger)
+                        hamburger.addEventListener('click', function() {
+                            // Переключаем класс у навигационного меню
+                            navlinks.classList.toggle('active');
+                        });
 
                     // Добавляем обработчик события для каждой ссылки
                     for (let i = 0; i < links.length; i++) {
@@ -94,12 +112,12 @@
     </nav>
     <div id="static-modal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true"
         class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-        <div class="relative p-4 w-full max-w-2xl max-h-full">
+        <div class="mymodal relative p-4 w-full max-w-2xl max-h-full">
             <!-- Modal content -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
                 <!-- Modal header -->
                 <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                    <h3 class="text-xl font-semibold text-orange-400">
+                    <h3 class="text-xl font-semibold text-orange-500">
                     </h3>
                     <button type="button"
                         class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
@@ -114,12 +132,12 @@
                 </div>
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-2">
-                    <h6 class="text-center font-bold leading-relaxed text-orange-400 text-xl">
+                    <h6 class="text-center font-bold leading-relaxed text-orange-500 text-xl">
                         Адреса и график работы магазинов
                     </h6>
                     <div class="modal__services row">
                         <div class="col-lg-4 col-sm-12">
-                            <p class="text-md leading-relaxed text-orange-400 font-bold">
+                            <p class="text-md leading-relaxed text-orange-500 font-bold">
                                 Город Камышин, улица Базарова, 62
                             </p>
                             <a href='tel:+79044272069' class="text-sm leading-relaxed text-gray-500 ">
@@ -139,14 +157,14 @@
                             </p>
                         </div>
                         <div class="col-lg-4 col-sm-12">
-                            <p class="text-md leading-relaxed text-orange-400 font-bold">
+                            <p class="text-md leading-relaxed text-orange-500 font-bold">
                                 Город Камышин, Улица 22 Партсьезда, 8А
                             </p>
                             <a href='tel:+79585454287' class="text-sm leading-relaxed text-gray-500 ">
                                 +79585454287 <br>
                             </a>
                             <a href='tel:8-844-57-93200' class="text-sm leading-relaxed text-gray-500 ">
-                                8-844-57-93200 <br>
+                                +78445793200 <br>
                             </a>
                             <p class="text-sm leading-relaxed text-gray-500 font-bold">
                                 Понедельник-суббота
@@ -162,14 +180,14 @@
                             </p>
                         </div>
                         <div class="col-lg-4 col-sm-12 sm:items-center">
-                            <p class="text-md leading-relaxed text-orange-400 font-bold">
+                            <p class="text-md leading-relaxed text-orange-500 font-bold">
                                 Офис-склад в Камышине на Улице Некрасова, 2
                             </p>
                             <a href='tel:+79061740453' class="text-sm leading-relaxed text-gray-500 ">
                                 +79061740453 <br>
                             </a>
                             <a href='tel:8-844-57-47800' class="text-sm leading-relaxed text-gray-500 ">
-                                8-844-57-47800 <br>
+                                +78445747800 <br>
                             </a>
                             <p class="text-sm leading-relaxed text-gray-500 font-bold">
                                 Понедельник-пятница
@@ -193,12 +211,12 @@
                     </div>
                 </div>
                 <div class="p-4 md:p-5 space-y-2">
-                    <h6 class="text-center font-bold leading-relaxed text-orange-400 text-xl">
+                    <h6 class="text-center font-bold leading-relaxed text-orange-500 text-xl">
                         Замена масла и шиномонтаж
                     </h6>
                     <div class="modal__services row">
                         <div class="col-lg-6 col-sm-12">
-                            <p class="text-md leading-relaxed text-orange-400 font-bold">
+                            <p class="text-md leading-relaxed text-orange-500 font-bold">
                                 Город Камышин, улица Базарова, 62
                             </p>
                             <a href='tel:+79377089152' class="text-sm leading-relaxed text-gray-500 ">
@@ -212,7 +230,7 @@
                             </a>
                         </div>
                         <div class="col-lg-6 col-sm-12">
-                            <p class="text-md leading-relaxed text-orange-400 font-bold">
+                            <p class="text-md leading-relaxed text-orange-500 font-bold">
                                 Город Камышин, улица 22 Партсъезда, 8А
                             </p>
                             <a href='tel:+79272587353' class="text-sm leading-relaxed text-gray-500 ">
@@ -242,8 +260,7 @@
 
         if (screenWidth > 1024) {
             navLinks.style.display = 'flex';
-        }
-        else {
+        } else {
             toggleNavlinksDisplay = 'none';
         }
     });

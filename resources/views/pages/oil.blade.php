@@ -3,8 +3,8 @@
 @section('content')
     <div class="home relative" id="home">
         <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
-            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
-            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-500 to-white"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-500"></div>
         </div>
     </div>
     <div id="solution" class="pt-36 max-w-7xl mx-auto px-6 md:px-12 xl:px-6" style="top:3%;">
@@ -18,10 +18,10 @@
                     clip-rule="evenodd"></path>
             </svg>
             <div
-                class="space-y-6 justify-between text-orange-400 md:flex md:flex-row md:gap-6 md:space-y-0 lg:gap-12">
+                class="space-y-6 justify-between text-orange-500 md:flex md:flex-row md:gap-6 md:space-y-0 lg:gap-12">
 
                 <div class="md:7/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+                    <h2 class="text-3xl font-bold text-orange-500 md:text-4xl">
                         Масла и жидкости
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300">
@@ -32,7 +32,7 @@
                     <div class="divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="mt-8 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">1</p>
+                                <p class="text-orange-500 m-auto font-bold">1</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Моторные
@@ -42,7 +42,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">2</p>
+                                <p class="text-orange-500 m-auto font-bold">2</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Трансмиссионные</h3>
@@ -51,7 +51,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">3</p>
+                                <p class="text-orange-500 m-auto font-bold">3</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300"> Масла для катеров,
@@ -61,7 +61,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">4</p>
+                                <p class="text-orange-500 m-auto font-bold">4</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Промышленные масла
@@ -71,7 +71,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">5</p>
+                                <p class="text-orange-500 m-auto font-bold">5</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Гидравлические</h3>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="md:5/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl ">
+                    <h2 class="text-3xl font-bold text-orange-500 md:text-4xl ">
                         Иностранные производители
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300 leading-7">
@@ -92,7 +92,7 @@
                     <p class="my-8 text-gray-600 text-gray-300">
                         Если чего-то не окажется, доставим необходимый товар в Камышин в течение 1-3 дней
                     </p>
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl ">
+                    <h2 class="text-3xl font-bold text-orange-500 md:text-4xl ">
                         Отечественные производители
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300">

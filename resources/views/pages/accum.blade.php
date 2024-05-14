@@ -3,8 +3,8 @@
 @section('content')
     <div class="home relative" id="home">
         <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
-            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
-            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-500 to-white"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-500"></div>
         </div>
     </div>
     <div id="solution" class="pt-36">
@@ -20,7 +20,7 @@
             <div
                 class="space-y-6 lg:flex justify-between text-gray-600 md:flex md:flex-row md:gap-6 md:space-y-0 lg:gap-12">
                 <div class="md:7/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+                    <h2 class="text-3xl font-bold text-orange-500 md:text-4xl">
                         Аккумуляторы
                     </h2>
                     <p class="my-8 text-gray-600 text-gray-300">
@@ -29,7 +29,7 @@
                     <div class="divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="mt-8 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">1</p>
+                                <p class="text-orange-500 m-auto font-bold">1</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Емкость
@@ -39,7 +39,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">2</p>
+                                <p class="text-orange-500 m-auto font-bold">2</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Производители</h3>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">3</p>
+                                <p class="text-orange-500 m-auto font-bold">3</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300"> Зарядные и пусковые
@@ -60,7 +60,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">4</p>
+                                <p class="text-orange-500 m-auto font-bold">4</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Проверяем каждый
@@ -71,7 +71,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">5</p>
+                                <p class="text-orange-500 m-auto font-bold">5</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">На все аккумуляторы
@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <div class="md:5/12 lg:w-1/2">
-                    <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+                    <h2 class="text-3xl font-bold text-orange-500 md:text-4xl">
                         Возникли вопросы?
                     </h2>
                     <p class="mt-8 text-gray-600 text-gray-300">
@@ -95,13 +95,13 @@
                     <div class="mt-3 text-gray-600">Звоните по номерам телефонов: <br>
                         <div class="flex mt-2">
                             <i class="fa-solid fa-phone mr-2 mt-1"></i>
-                            <a href="tel:8-844-57-47800" class="text-orange-400">
+                            <a href="tel:8-844-57-47800" class="text-orange-500">
                                 8-844-57-47800
                             </a>
                         </div>
                         <div class="flex mt-2">
                             <i class="fa-solid fa-phone mr-2 mt-1"></i>
-                            <a href="tel:+79061740453" class="text-orange-400">
+                            <a href="tel:+79061740453" class="text-orange-500">
                                 +79061740453
                             </a>
                         </div>

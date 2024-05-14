@@ -42,6 +42,10 @@ hr {
     border-top-width: 1px
 }
 
+/* button{
+    border-radius: 1rem;
+} */
+
 abbr:where([title]) {
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted
@@ -1882,7 +1886,7 @@ body {
     display: none;
 }
 
-@media(max-width: 450px) {
+@media(max-width: 540px) {
     .link__about{
         display: inline-block;
     }
@@ -1893,5 +1897,14 @@ body {
     .main__text{
         display: none;
     }
+}
 
+
+/* .button {
+    border-radius: 1rem;
+} */
+
+
+.mymodal{
+    max-width: 55rem !important;
 }

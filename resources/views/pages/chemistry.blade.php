@@ -3,13 +3,13 @@
 @section('content')
     <div class="home relative" id="home">
         <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 opacity-20">
-            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-400 to-white"></div>
-            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-400"></div>
+            <div class="blur-[106px] h-56 bg-gradient-to-br from-orange-500 to-white"></div>
+            <div class="blur-[106px] h-32 bg-gradient-to-r from-white to-orange-500"></div>
         </div>
     </div>
     <div id="solution" class="pt-36">
         <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-            <h2 class="text-3xl font-bold text-orange-400 md:text-4xl">
+            <h2 class="text-3xl font-bold text-orange-500 md:text-4xl">
                 Химия
             </h2>
             <p class="my-8 text-gray-600 text-gray-300">
@@ -21,7 +21,7 @@
                     <div class="divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="mt-8 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">1</p>
+                                <p class="text-orange-500 m-auto font-bold">1</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Присадки в масла
@@ -31,7 +31,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">2</p>
+                                <p class="text-orange-500 m-auto font-bold">2</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Очистители различных
@@ -41,7 +41,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">3</p>
+                                <p class="text-orange-500 m-auto font-bold">3</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Раскоксовки поршневых
@@ -51,7 +51,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">4</p>
+                                <p class="text-orange-500 m-auto font-bold">4</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Полироли</h3>
@@ -60,7 +60,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">5</p>
+                                <p class="text-orange-500 m-auto font-bold">5</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Герметики</h3>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">6</p>
+                                <p class="text-orange-500 m-auto font-bold">6</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Жидкие ключи</h3>
@@ -82,7 +82,7 @@
                     <div class="divide-y space-y-4 divide-gray-100 divide-gray-800">
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">7</p>
+                                <p class="text-orange-500 m-auto font-bold">7</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Размораживатели</h3>
@@ -91,7 +91,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">8</p>
+                                <p class="text-orange-500 m-auto font-bold">8</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Шампуни</h3>
@@ -100,7 +100,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">9</p>
+                                <p class="text-orange-500 m-auto font-bold">9</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Краска в баллончиках
@@ -110,7 +110,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">10</p>
+                                <p class="text-orange-500 m-auto font-bold">10</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Антигели и
@@ -120,7 +120,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">11</p>
+                                <p class="text-orange-500 m-auto font-bold">11</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Антигравий</h3>
@@ -129,7 +129,7 @@
                         </div>
                         <div class="pt-4 flex gap-4 md:items-center">
                             <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                <p class="text-orange-400 m-auto font-bold">12</p>
+                                <p class="text-orange-500 m-auto font-bold">12</p>
                             </div>
                             <div class="w-5/6">
                                 <h3 class="font-semibold text-lg text-gray-700 text-teal-300">Мастика/Растворители
