@@ -21,7 +21,7 @@
                     <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
 
                         <button data-modal-target="static-modal" data-modal-toggle="static-modal"
-                            class="relative flex h-12 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-2xl before:bg-[#ff5a1f] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
+                            class="relative flex h-12 w-full items-center justify-center px-12 before:absolute before:inset-0 before:rounded-2xl before:bg-[#ff5a1f] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                             <span class="relative text-base font-semibold text-white">Контакты</span>
                         </button>
                         <a href="{{ route('about') }}"
