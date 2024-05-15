@@ -1908,3 +1908,15 @@ body {
 .mymodal{
     max-width: 55rem !important;
 }
+
+.additional__list {
+    list-style:disc;
+    margin-left: 1rem;
+}
+
+
+@media (max-width:766px) {
+    .additional__name {
+        margin-top:10px;
+    }
+}

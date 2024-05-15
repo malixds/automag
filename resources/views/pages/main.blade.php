@@ -209,9 +209,9 @@
             <div
                 class="mt-16 grid lg:divide-x sm:divide-x divide-y divide-orange-500 overflow-hidden rounded-3xl border-1 border-orange-500 text-gray-600 sm:grid-cols-2 lg:grid-cols-4 lg:divide-y-0 xl:grid-cols-4">
                 <div
-                    class="group relative hover:bg-orange-500 transition hover:z-[1]  hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    class="group relative hover:bg-orange-400 transition hover:z-[1]  hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
                     <div class="relative space-y-8 pt-12 pb-4 p-8">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341139.png" class="w-12" width="512"
+                        <img src="{{asset('images/jerrycan_10821446.png')}}" class="w-12" width="512"
                             height="512" alt="burger illustration">
 
                         <div class="space-y-2 lg:min-h-48 sm:min-h-36 ">
@@ -230,9 +230,9 @@
                     </div>
                 </div>
                 <div
-                    class="group relative hover:bg-orange-500 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    class="group relative hover:bg-orange-400 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
                     <div class="relative space-y-8 pt-12 pb-4 p-8">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341134.png" class="w-12" width="512"
+                        <img src="{{asset('images/filter_3348214.png')}}" class="w-12" width="512"
                             height="512" alt="burger illustration">
 
                         <div class="space-y-2 lg:min-h-48 sm:min-h-36 ">
@@ -251,9 +251,9 @@
                     </div>
                 </div>
                 <div
-                    class="group relative hover:bg-orange-500 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    class="group relative hover:bg-orange-400 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
                     <div class="relative space-y-8 pt-12 pb-4 p-8">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341160.png" class="w-12" width="512"
+                        <img src="{{asset('images/accumulator_9978191.png')}}" class="w-12" width="512"
                             height="512" alt="burger illustration">
 
                         <div class="lg:min-h-48 sm:min-h-36 space-y-2">
@@ -272,9 +272,9 @@
                     </div>
                 </div>
                 <div
-                    class="group hover:bg-orange-500 relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
+                    class="group hover:bg-orange-400 relative transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
                     <div class="relative space-y-8 pt-12 pb-4 p-8">
-                        <img src="https://cdn-icons-png.flaticon.com/512/4341/4341025.png" class="w-12" width="512"
+                        <img src="{{asset('images/new-car_5044540.png')}}" class="w-12" width="512"
                             height="512" alt="burger illustration">
 
                         <div class="space-y-2 lg:min-h-48 sm:min-h-36 ">
@@ -322,11 +322,24 @@
                                     data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
                                     aria-controls="accordion-collapse-body-1">
                                     <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                        <img class="w-10 h-10 m-auto" src="{{ asset('images/cog-svgrepo-com.svg') }}" alt="image" loading="lazy" width=""
-                                        height="" class="w-full">
+                                        <svg class="w-7 h-7 m-auto" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <g id="SVGRepo_iconCarrier">
+                                                <path
+                                                    d="M10.255 4.18806C9.84269 5.17755 8.68655 5.62456 7.71327 5.17535C6.10289 4.4321 4.4321 6.10289 5.17535 7.71327C5.62456 8.68655 5.17755 9.84269 4.18806 10.255C2.63693 10.9013 2.63693 13.0987 4.18806 13.745C5.17755 14.1573 5.62456 15.3135 5.17535 16.2867C4.4321 17.8971 6.10289 19.5679 7.71327 18.8246C8.68655 18.3754 9.84269 18.8224 10.255 19.8119C10.9013 21.3631 13.0987 21.3631 13.745 19.8119C14.1573 18.8224 15.3135 18.3754 16.2867 18.8246C17.8971 19.5679 19.5679 17.8971 18.8246 16.2867C18.3754 15.3135 18.8224 14.1573 19.8119 13.745C21.3631 13.0987 21.3631 10.9013 19.8119 10.255C18.8224 9.84269 18.3754 8.68655 18.8246 7.71327C19.5679 6.10289 17.8971 4.4321 16.2867 5.17535C15.3135 5.62456 14.1573 5.17755 13.745 4.18806C13.0987 2.63693 10.9013 2.63693 10.255 4.18806Z"
+                                                    stroke="#ff5a1f" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path
+                                                    d="M15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z"
+                                                    stroke="#ff5a1f" stroke-width="2" />
+                                            </g>
+                                        </svg>
                                     </div>
                                     <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-orange-500">Антифризы и тосолы
+                                        <h3 class=" additional__name font-semibold text-lg text-orange-500">Антифризы и тосолы
                                         </h3>
                                         <p class="text-gray-500 text-gray-400"></p>
                                     </div>
@@ -345,11 +358,18 @@
                                     data-accordion-target="#accordion-collapse-body-2" aria-expanded="true"
                                     aria-controls="accordion-collapse-body-2">
                                     <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                        <img class="w-9 h-9 m-auto" src="{{ asset('images/lightning-bolt-weather-storm-energy-electricity-svgrepo-com(2).svg') }}" alt="image" loading="lazy" width=""
-                                        height="" class="w-full">
+                                        <svg class="w-7 h-7 m-auto" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" width="800px" height="800px" fill="#c061cb">
+
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                            <g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#fe713d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:none;stroke:#fe713d;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;} </style> <polygon class="st0" points="26,16 18.63,16 22.98,3 6,16 13.37,16 9.02,29 "/> </g>
+
+                                            </svg>
                                     </div>
                                     <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-orange-500">Электрооборудование
+                                        <h3 class="additional__name font-semibold text-lg text-orange-500">Электрооборудование
                                         </h3>
                                         <p class="text-gray-500 text-gray-400"></p>
                                     </div>
@@ -358,15 +378,15 @@
                             <div id="accordion-collapse-body-2" class="hidden"
                                 aria-labelledby="accordion-collapse-heading-2">
                                 <div class="p-2">
-                                    <ul>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Свечи зажигания. NGK, Denso,
+                                    <ul class="additional__list">
+                                        <li class="additional__item  mb-2 text-gray-500 text-gray-400">Свечи зажигания. NGK, Denso,
                                             Энгельс ЭЗ, Torch, Brisk, Bosch, Lynx.</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Лампочки (галогенные,
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Лампочки (галогенные,
                                             светодиодные, ксеноновые) <br> Osram, Bosch, Filips, Narva, Goodyear, Cikoo,
                                             Маяк, Selen, SCT, AVS.</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Фары</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Провода зажигания</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Предохранители</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Фары</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Провода зажигания</li>
+                                        <li class="additional__itemmb-2 text-gray-500 text-gray-400">Предохранители</li>
                                     </ul>
                                 </div>
                             </div>
@@ -375,11 +395,18 @@
                                     data-accordion-target="#accordion-collapse-body-3" aria-expanded="true"
                                     aria-controls="accordion-collapse-body-3">
                                     <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                        <img class="w-9 h-9 m-auto" src="{{ asset('images/brush-svgrepo-com(2).svg') }}" alt="image" loading="lazy" width=""
-                                        height="" class="w-full">
+                                        <svg class="h-7 w-7 m-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                            <g id="SVGRepo_iconCarrier"> <path d="M9 3V7M15 3V6M4 10H20M12 21C10.2337 21 8.91561 19.3737 9.28133 17.6457L9.34332 17.3528C9.56076 16.3254 9.04388 15.2832 8.09439 14.8346L5.9897 13.8401C4.77487 13.2661 4 12.043 4 10.6994V4.63149C4 3.73044 4.73044 3 5.63149 3H18.3685C19.2696 3 20 3.73044 20 4.63149V10.6994C20 12.043 19.2251 13.2661 18.0103 13.8401L15.9056 14.8346C14.9561 15.2832 14.4392 16.3254 14.6567 17.3528L14.7187 17.6457C15.0844 19.3737 13.7663 21 12 21Z" stroke="#fe713d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                                            </svg>
                                     </div>
                                     <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-orange-500">Аксессуары
+                                        <h3 class="additional__name  font-semibold text-lg text-orange-500">Аксессуары
                                         </h3>
                                         <p class="text-gray-500 text-gray-400"></p>
                                     </div>
@@ -388,16 +415,16 @@
                             <div id="accordion-collapse-body-3" class="hidden"
                                 aria-labelledby="accordion-collapse-heading-3">
                                 <div class="p-2">
-                                    <ul>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Щетки стеклоочистителей</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Чехлы и накидки на сиденья</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Колпаки на диски</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Ароматизаторы и освежители</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Брелки</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Оплетки на руль</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Сиденья детские</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Фонари</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Скребки и щетки для снега и льда
+                                    <ul class="additional__list">
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Щетки стеклоочистителей</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Чехлы и накидки на сиденья</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Колпаки на диски</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Ароматизаторы и освежители</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Брелки</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Оплетки на руль</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Сиденья детские</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Фонари</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Скребки и щетки для снега и льда
                                         </li>
                                     </ul>
                                 </div>
@@ -407,11 +434,22 @@
                                     data-accordion-target="#accordion-collapse-body-6" aria-expanded="true"
                                     aria-controls="accordion-collapse-body-5">
                                     <div class="w-12 h-12 flex gap-4 rounded-full bg-orange-100">
-                                        <img class="w-11 h-11 m-auto" src="{{ asset('images/fire-extinguisher-solid-svgrepo-com(3).svg') }}" alt="image" loading="lazy" width=""
-                                        height="" class="w-full">
+                                        <svg class="w-8 h-8 m-auto" fill="#fe713d" width="800px" height="800px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                            <g id="SVGRepo_iconCarrier">
+
+                                            <path d="M 16 4 C 14.707031 4 13.605469 4.84375 13.1875 6 L 12 6 C 9.253906 6 7 8.253906 7 11 L 9 11 C 9 9.34375 10.34375 8 12 8 L 13 8 L 13 10.46875 C 12.679688 10.707031 12.265625 11.046875 11.78125 11.53125 C 10.953125 12.359375 10 13.5 10 15 L 10 28 L 22 28 L 22 15 C 22 13.5 21.046875 12.359375 20.21875 11.53125 C 19.734375 11.046875 19.320313 10.707031 19 10.46875 L 19 10.1875 L 23.84375 11 L 25 11.1875 L 25 4.8125 L 23.84375 5 L 18.75 5.84375 C 18.292969 4.769531 17.234375 4 16 4 Z M 16 6 C 16.554688 6 17 6.445313 17 7 L 17 10 L 15 10 L 15 7 C 15 6.445313 15.445313 6 16 6 Z M 23 7.1875 L 23 8.8125 L 19 8.125 L 19 7.875 Z M 14.375 12 L 17.625 12 C 17.777344 12.105469 18.203125 12.390625 18.78125 12.96875 C 19.453125 13.640625 20 14.5 20 15 L 20 26 L 12 26 L 12 15 C 12 14.5 12.546875 13.640625 13.21875 12.96875 C 13.796875 12.390625 14.222656 12.105469 14.375 12 Z M 14 17 L 14 19 L 18 19 L 18 17 Z"/>
+
+                                            </g>
+
+                                            </svg>
                                     </div>
                                     <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-orange-500">Другое
+                                        <h3 class="additional__name  font-semibold text-lg text-orange-500">Другое
                                         </h3>
                                         <p class="text-gray-500 text-gray-400"></p>
                                     </div>
@@ -420,18 +458,18 @@
                             <div id="accordion-collapse-body-6" class="hidden"
                                 aria-labelledby="accordion-collapse-heading-6">
                                 <div class="p-2">
-                                    <ul>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Смазки: литол, солидол, ШРУС,
+                                    <ul class="additional__list">
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Смазки: литол, солидол, ШРУС,
                                             смазка 158, ЦИАТИМ, Фиол, смазки для консервации, высокотемпературные
                                             смазки, вазелин, графитная смазка, смазки для цепей и мн. др. </li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Инструменты: ключи, головки,
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Инструменты: ключи, головки,
                                             отвертки, пассатижи, и т. д. </li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Огнетушители</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Хомуты</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Тормозные колодки</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Домкраты</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Шумоизоляция</li>
-                                        <li class="mb-2 text-gray-500 text-gray-400">Буксиры и тросы</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Огнетушители</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Хомуты</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Тормозные колодки</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Домкраты</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Шумоизоляция</li>
+                                        <li class="additional__item mb-2 text-gray-500 text-gray-400">Буксиры и тросы</li>
                                     </ul>
                                 </div>
                             </div>
@@ -440,11 +478,28 @@
                                     data-accordion-target="#accordion-collapse-body-4" aria-expanded="true"
                                     aria-controls="accordion-collapse-body-4">
                                     <div class="w-12 h-12 flex gap-4 rounded-full bg-blue-100">
-                                        <img class="w-9 h-9 m-auto" src="{{ asset('images/wrench-svgrepo-com.svg') }}" alt="image" loading="lazy" width=""
-                                        height="" class="w-full">
+                                        <svg class="w-7 h-7 m-auto" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                            <g id="SVGRepo_iconCarrier">
+
+                                            <defs>
+
+                                            <style>.cls-1{fill:none;stroke:#3476ff;stroke-miterlimit:10;stroke-width:1.91px;}</style>
+
+                                            </defs>
+
+                                            <path class="cls-1" d="M21.94,4.76,18.12,8.58l-2-.68-.68-2,3.82-3.82a5.71,5.71,0,0,0-7.93,6.81L1.5,18.68,5.32,22.5l9.81-9.81a5.71,5.71,0,0,0,6.81-7.93Z"/>
+
+                                            </g>
+
+                                            </svg>
                                     </div>
                                     <div class="w-5/6">
-                                        <h3 class="font-semibold text-lg text-[#3476ff]">Запчасти на заказ
+                                        <h3 class="additional__name  font-semibold text-lg text-[#3476ff]">Запчасти на заказ
                                         </h3>
                                         <p class="text-gray-500 text-gray-400"></p>
                                     </div>
@@ -472,8 +527,15 @@
                                     data-accordion-target="#accordion-collapse-body-5" aria-expanded="true"
                                     aria-controls="accordion-collapse-body-5">
                                     <div class="w-12 h-12 flex gap-4 rounded-full bg-purple-100">
-                                        <img class="w-10 h-10 m-auto" src="{{ asset('images/wheel-svgrepo-com.svg') }}" alt="image" loading="lazy" width=""
-                                        height="" class="w-full">
+                                        <svg class="w-8 h-8 m-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                            <g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#c084fc" stroke-width="1.5"/> <circle cx="12" cy="12" r="6" stroke="#c084fc" stroke-width="1.5"/> <circle cx="12" cy="12" r="2" stroke="#c084fc" stroke-width="1.5"/> <path d="M6 12L10 12" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/> <path d="M14 12L18 12" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/> <path d="M9 17.1963L11 13.7322" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/> <path d="M13 10.2681L15 6.80396" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/> <path d="M15 17.1963L13 13.7322" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/> <path d="M11 10.2681L9 6.80396" stroke="#c084fc" stroke-width="1.5" stroke-linecap="round"/> </g>
+
+                                            </svg>
                                     </div>
                                     <div class="w-5/6">
                                         <h3 class="font-semibold text-lg text-purple-400">
@@ -637,7 +699,8 @@
                 </div>
             </div>
             <div class="mt-5  mb-16 flex justify-center ">
-                <a href="https://yandex.ru/maps/org/avtomag/1035992373/reviews/?ll=45.394878%2C50.081285&z=14" target="_blank"
+                <a href="https://yandex.ru/maps/org/avtomag/1035992373/reviews/?ll=45.394878%2C50.081285&z=14"
+                    target="_blank"
                     class=" hover:color-black relative flex h-12 w-full items-center justify-center px-8 before:absolute before:inset-0 before:rounded-2xl before:bg-[#ff5a1f] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                     <span class="relative text-base font-semibold text-white text-dark">Смотреть еще</span>
                 </a>
@@ -665,7 +728,16 @@
                         <h3 class="text-2xl font-semibold text-orange-500 map__title">
                             Город Камышин, улица Базарова, 62
                         </h3>
-                        <div class="map__phones">
+                        <div class="map__phones flex">
+                            <svg class="map__phone-icon w-5 h-5 mt-1 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                <g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#5d6370" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                                </svg>
                             <a href="tel:+79044272069"
                                 class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-500 transition">
                                 +79044272069
@@ -698,14 +770,36 @@
                             Город Камышин, Улица 22 Партсъезда, 8А
                         </h3>
                         <div class="map__phones">
-                            <a href="tel:+79585454287"
-                                class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-500 transition">
-                                +79585454287
-                            </a>
-                            <a href="tel:8-844-57-93200"
-                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-500 transition">
-                                +78445793200
-                            </a>
+                            <div class="flex">
+                                <svg class="map__phone-icon w-5 h-5 mt-1 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                    <g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#5d6370" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                                    </svg>
+                                    <a href="tel:+79585454287"
+                                        class="text-lg  block mb-2 text-gray-600 text-gray-300 hover:text-orange-500 transition">
+                                        +79585454287
+                                    </a>
+                            </div>
+                            <div class="flex">
+                                <svg class="map__phone-icon w-5 h-5 mt-1 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                    <g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#5d6370" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                                    </svg>
+                                    <a href="tel:8-844-57-93200"
+                                        class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-500 transition">
+                                        +78445793200
+                                    </a>
+                            </div>
                         </div>
                         <p class="text-sm leading-relaxed text-gray-500 font-bold">
                             Понедельник-суббота
@@ -735,14 +829,36 @@
                             Город Камышин, Улица Некрасова, 2
                         </h3>
                         <div class="map__phones">
-                            <a href="tel:+79061740453"
-                                class="text-lg block  mb-2 text-gray-600 text-gray-300 hover:text-orange-500 transition">
-                                +79061740453
-                            </a>
-                            <a href="tel:8-844-57-47800,"
-                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-500 transition">
-                                +78445747800
-                            </a>
+                            <div class="flex">
+                                <svg class="map__phone-icon w-5 h-5 mt-1 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                    <g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#5d6370" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                                    </svg>
+                                    <a href="tel:+79061740453"
+                                        class="text-lg block  mb-2 text-gray-600 text-gray-300 hover:text-orange-500 transition">
+                                        +79061740453
+                                    </a>
+                            </div>
+                            <div class="flex">
+                                <svg class="map__phone-icon w-5 h-5 mt-1 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+
+                                    <g id="SVGRepo_iconCarrier"> <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#5d6370" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
+
+                                    </svg>
+                                    <a href="tel:8-844-57-47800,"
+                                        class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-500 transition">
+                                        +78445747800
+                                    </a>
+                            </div>
                         </div>
                         <p class="text-sm leading-relaxed text-gray-500 font-bold">
                             Понедельник-пятница
@@ -767,11 +883,11 @@
                 </div>
             </div>
             <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                <a href="tel:"
+                <a href="tel:+79061740453"
                     class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-2xl before:bg-[#ff5a1f] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max">
                     <span class="relative text-base font-semibold text-white">Позвоните</span>
                 </a>
-                <a href="mailto:"
+                <a href="mailto:automag_kam@mail.ru"
                     class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-2xl before:border before:border-transparent before:bg-gray-500 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 before:border-gray-700 before:bg-gray-800 sm:w-max">
                     <span class="relative text-base font-semibold text-primary text-white">Напишите</span>
                 </a>
