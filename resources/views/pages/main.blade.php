@@ -253,9 +253,8 @@
                 <div
                     class="group relative hover:bg-orange-400 transition hover:z-[1] hover:shadow-2xl hover:shadow-gray-600/10 transition duration-300">
                     <div class="relative space-y-8 pt-12 pb-4 p-8">
-                        <img src="{{asset('images/accumulator_9978191.png')}}" class="w-12" width="512"
+                        <img src="{{asset('images/garage_13543273.png')}}" class="w-12" width="512"
                             height="512" alt="burger illustration">
-
                         <div class="lg:min-h-48 sm:min-h-36 space-y-2">
                             <h5 class="text-xl font-semibold text-gray-700 transition group-hover:text-white">
                                 Аккумуляторы

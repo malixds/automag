@@ -95,8 +95,8 @@
                     <div class="mt-3 text-gray-600">Звоните по номерам телефонов: <br>
                         <div class="flex mt-2">
                             <i class="fa-solid fa-phone mr-2 mt-1"></i>
-                            <a href="tel:8-844-57-47800" class="text-orange-500">
-                                8-844-57-47800
+                            <a href="tel:+78445747800" class="text-orange-500">
+                                +78445747800
                             </a>
                         </div>
                         <div class="flex mt-2">
