@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <meta name="generator" content="Astro v1.9.2">
-    <meta name="description" content="Template built with tailwindcss using Tailus blocks v2">
-    <title>Tailus astro theme</title>
+    <meta name="generator" content="Автомаг">
+    <meta name="keywords" content="автомобильные масла, автофильтры, аккумуляторы, автотовары, магазин автотоваров">
+    <meta charset="UTF-8">
+    <meta name="author" content="Автомаг">
+    <meta name="description" content="Ваш надежный поставщик автомобильных масел, фильтров, аккумуляторов и других автотоваров. Высокое качество, доступные цены и широкий ассортимент. ">
+    <title>{{ config('app.name') }}</title>
+    <link rel="icon" href="{{ asset('images/logo1.svg') }}" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
