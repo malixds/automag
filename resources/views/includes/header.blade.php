@@ -150,19 +150,19 @@
                     <h3 class="text-xl font-semibold text-orange-500">
                     </h3>
                     <button type="button"
-                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                        class="font-bold text-orange-500 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
                         data-modal-hide="static-modal">
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 14 14">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                         </svg>
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
                 <!-- Modal body -->
                 <div class="p-4 md:p-5 space-y-2">
-                    <h6 class="text-center font-bold leading-relaxed text-orange-500 text-xl">
+                    <h6 class="text-center font-bold leading-relaxed text-orange-500 text-2xl mb-4">
                         Адреса и график работы магазинов
                     </h6>
                     <div class="modal__services row">
@@ -188,7 +188,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-12">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
-                                Город Камышин, Улица 22 Партсьезда, 8А
+                                Город Камышин, Улица 22 Партсъезда, 8А
                             </p>
                             <a href='tel:+79585454287' class="text-sm leading-relaxed text-gray-500 ">
                                 +79585454287 <br>
@@ -241,9 +241,9 @@
                     </div>
                 </div>
                 <div class="p-4 md:p-5 space-y-2">
-                    <h6 class="text-center font-bold leading-relaxed text-orange-500 text-xl">
-                        Замена масла и шиномонтаж
-                    </h6>
+                    <h5 class="shoppoint text-center font-bold leading-relaxed text-orange-500 text-2xl mb-4">
+                        Замена масла и <strong>шиномонтаж</strong>
+                    </h5>
                     <div class="modal__services row">
                         <div class="col-lg-6 col-sm-12">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
@@ -266,17 +266,20 @@
                             <a href='tel:+79272587353' class="text-sm leading-relaxed text-gray-500 ">
                                 +79272587353 Юрий | Мастер <br>
                             </a>
-                            <a href='tel:+79020905587' class="text-sm leading-relaxed text-gray-500 ">
-                                +79020905587 Дмитрий | Мастер <br>
-                            </a>
                             <a href='tel:+79585454287' class="text-sm leading-relaxed text-gray-500 ">
                                 +79585454287 Магазин <br>
                             </a>
-                            <a href='tel:+79275355315' class="text-sm leading-relaxed text-gray-500 ">
+                            <a href='tel:+79275355315' class="shoppoint__tel text-sm leading-relaxed text-gray-500 ">
                                 <strong>+79275355315 Руслан | Шиномонтаж</strong>
                             </a>
                         </div>
                     </div>
+                </div>
+                <div class="close__btn mb-5 h-16 mt-4 d-none">
+                    <button type="button" data-modal-hide="static-modal"
+                        class="mx-auto w:1/3  before:bg-orange-500 relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-2xl before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 astro-ARE2YTNH">
+                        <span class="relative text-sm font-semibold text-white astro-ARE2YTNH">Скрыть</span>
+                    </button>
                 </div>
             </div>
         </div>

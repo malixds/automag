@@ -1899,6 +1899,10 @@ body {
 }
 
 
+.close__btn{
+    max-width: 200px;
+    margin: 0 auto;
+}
 /* .button {
     border-radius: 1rem;
 } */
@@ -1917,5 +1921,17 @@ body {
 @media (max-width:766px) {
     .additional__name {
         margin-top:10px;
+    }
+}
+
+
+.shoppoint strong,
+.shoppoint__tel  {
+    color: #0390fc;
+}
+
+@media(max-width:620px) {
+    .close__btn{
+        display: block !important;
     }
 }

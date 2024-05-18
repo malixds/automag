@@ -572,10 +572,6 @@
                                                 class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-500 transition">
                                                 +79272587353
                                             </a>
-                                            <a href="tel:+79020905587 "
-                                                class="text-lg  block text-gray-600 text-gray-300 hover:text-orange-500 transition">
-                                                +79020905587
-                                            </a>
                                         </li>
                                         <li class="mb-2 text-gray-500 text-gray-400">
                                             <strong>Монтаж шин на улице 22 Партсъезда, 8А</strong> <br>
