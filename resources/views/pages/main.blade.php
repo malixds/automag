@@ -721,7 +721,7 @@
                     </div>
                     <div class="mt-6 p-6 sm:p-8  relative">
                         <h3 class="text-2xl font-semibold text-orange-500 map__title">
-                            Город Камышин, улица Базарова, 62
+                            город Камышин, улица Базарова, 62
                         </h3>
                         <div class="map__phones flex">
                             <svg class="map__phone-icon w-5 h-5 mt-1 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -762,7 +762,7 @@
                     </div>
                     <div class="mt-6 relative p-6 sm:p-8">
                         <h3 class="text-2xl font-semibold text-orange-500 map__title">
-                            Город Камышин, Улица 22 Партсъезда, 8А
+                            город Камышин, улица 22 Партсъезда, 8А
                         </h3>
                         <div class="map__phones">
                             <div class="flex">
@@ -821,7 +821,7 @@
                     </div>
                     <div class="mt-6 relative p-6 sm:p-8">
                         <h3 class="text-2xl font-semibold text-orange-500 map__title">
-                            Город Камышин, Улица Некрасова, 2
+                            город Камышин, улица Некрасова, 2
                         </h3>
                         <div class="map__phones">
                             <div class="flex">

@@ -168,7 +168,7 @@
                     <div class="modal__services row">
                         <div class="col-lg-4 col-sm-12">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
-                                Город Камышин, улица Базарова, 62
+                                город Камышин, улица Базарова, 62
                             </p>
                             <a href='tel:+79044272069' class="text-sm leading-relaxed text-gray-500 ">
                                 +79044272069 <br>
@@ -188,7 +188,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-12">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
-                                Город Камышин, Улица 22 Партсъезда, 8А
+                                город Камышин, улица 22 Партсъезда, 8А
                             </p>
                             <a href='tel:+79585454287' class="text-sm leading-relaxed text-gray-500 ">
                                 +79585454287 <br>
@@ -211,7 +211,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-12 sm:items-center">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
-                                Офис-склад в Камышине на Улице Некрасова, 2
+                                Офис-склад в Камышине на улице Некрасова, 2
                             </p>
                             <a href='tel:+79061740453' class="text-sm leading-relaxed text-gray-500 ">
                                 +79061740453 <br>
@@ -247,7 +247,7 @@
                     <div class="modal__services row">
                         <div class="col-lg-6 col-sm-12">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
-                                Город Камышин, улица Базарова, 62
+                                город Камышин, улица Базарова, 62
                             </p>
                             <a href='tel:+79377089152' class="text-sm leading-relaxed text-gray-500 ">
                                 +79377089152 Сергей | Мастер <br>
@@ -261,7 +261,7 @@
                         </div>
                         <div class="col-lg-6 col-sm-12">
                             <p class="text-md leading-relaxed text-orange-500 font-bold">
-                                Город Камышин, улица 22 Партсъезда, 8А
+                            город Камышин, улица 22 Партсъезда, 8А
                             </p>
                             <a href='tel:+79272587353' class="text-sm leading-relaxed text-gray-500 ">
                                 +79272587353 Юрий | Мастер <br>
