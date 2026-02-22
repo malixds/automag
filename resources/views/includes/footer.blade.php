@@ -12,8 +12,7 @@
                         </ul>
                     </div>
                     <div class=" mt-5 m-auto mt-16 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
-                        <span class="block text-gray-500">@2026 АвтоМаг Все права защищены</span>
-                        <span class="block text-gray-500 dark:text-gray-400 text-sm mt-2">ИНН 343600081392, ОГРН 30434532190002</span>
+                        <span class="block text-gray-500">@2024 АвтоМаг Все права защищены</span>
 
                         <span class="block text-gray-500 dark:text-gray-400 mr-3">Нужна помощь?  <a href="tel:+79061740453"
                                 class="font-semibold text-orange-500"> Свяжитесь с нами</a></span>
