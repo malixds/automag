@@ -39,7 +39,7 @@
                         class="row lg:w-3/3 items-center w-full hidden py-8 mt-16 border-y border-gray-100 border-gray-800 sm:flex justify-around">
                         <div class="text-center col-3 text-left">
                             <h6 class="text-lg font-semibold text-orange-500">Низкие цены</h6>
-                            <p class="mt-2 text-gray-500">Наша сеть предоставлен низкие цены на товары и услуги</p>
+                            <p class="mt-2 text-gray-500">Наша сеть предоставляет низкие цены на товары и услуги</p>
                         </div>
                         <div class="text-center col-3 text-left">
                             <h6 class="text-lg font-semibold text-orange-500">Быстрая доставка</h6>
@@ -47,7 +47,7 @@
                         </div>
                         <div class="text-center col-3 text-left">
                             <h6 class="text-lg font-semibold text-orange-500">Качественные товары</h6>
-                            <p class="mt-2 text-gray-500">Наши магазины предоставлюят только качественный и оригинальный
+                            <p class="mt-2 text-gray-500">Наши магазины предоставляют только качественный и оригинальный
                                 товар</p>
                         </div>
                     </div>
